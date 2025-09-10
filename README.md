@@ -1,5 +1,5 @@
 # 2D version
-This document provides instructions to run the Matlab and Python implementation of DDHADtens 2D, which computes internal damage variables from collections of 3x3 elastic tensors.
+This document provides instructions to run the Matlab and Python implementation of DDHADtens 2D, which computes internal damage variables from collections of 3x3 matrices.
 # Matlab version
 Run DDHADtens2D.m. All files should be in the same directory, including RVEA_2D.mat... RVEE_2D.mat
 # Python version
