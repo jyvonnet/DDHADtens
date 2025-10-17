@@ -1,8 +1,8 @@
-function []=A_ReducedVariables(SAVE_Alphas)
+function []=ReducedVariables(SAVE_Alphas)
 
 %PCA with automatic selection based on error criterion
 Error=0.01;%tolerance
-P = 1-Error; 
+P = 100-Error; 
 X = SAVE_Alphas;  %Original data (N x D), not centred
 
 %Covariance
