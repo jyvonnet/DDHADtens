@@ -1,12 +1,12 @@
 function [CC_save,CC_0]=A_LoadDatabase_DDHAD3D()
 
-'=============================='
-'1: RVE A: RVE with brittle matrix, hard inclusion, traction'
-'2: RVE B: RVE with weak layer perpendicular to x-axis, traction'
-'3: RVE C: Porous RVE, compression'
-'4: RVE D: Fiber in brittle matrix directed along x, traction'
-'=============================='
-Type=input('Choose database');
+fprintf('==============================\n');
+fprintf('1: RVE A: RVE with brittle matrix, hard inclusion, traction\n');
+fprintf('2: RVE B: RVE with weak layer perpendicular to x-axis, traction\n');
+fprintf('3: RVE C: Porous RVE, compression\n');
+fprintf('4: RVE D: Fiber in brittle matrix directed along x, traction\n');
+fprintf('==============================\n');
+Type=input('Choose database (1-4): ');
 
 if Type==1
     load('RVEA_3D');

@@ -24,7 +24,7 @@ NbPts=50; %number of points for discretizing the unit sphere
 Delll=pi/(NbPts); %angular increment
 thet=0:Delll:pi; phi=0:Delll:2*pi;
 
-[eta0,kappa0] = CaculEtaKappa0_3D(CC_0,thet,phi);
+[eta0,kappa0] = CalculEtaKappa0_3D(CC_0,thet,phi);
 [C_tilde] = PrecalculOPE_3D(eta0,kappa0,thet,phi);
 [SAVE_Alphas] = CalculVarDirect_3D(C_tilde,CC_0,CC_save);
 hold on
